@@ -24,7 +24,11 @@
                             <time class="date">
                                 {{ post.published_date }}
                             </time>
+<<<<<<< HEAD
                             <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+=======
+                            <h2><a href="">{{ post.title }}</a></h2>
+>>>>>>> fd55a87d6858f0ac66914e7827d3323bc440b359
                             <p>{{ post.text|linebreaksbr }}</p>
                         </article>
                     {% endfor %}
